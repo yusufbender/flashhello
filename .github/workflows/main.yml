@@ -32,3 +32,10 @@ jobs:
         docker build -t flashhello-app .
 
     # Not: DockerHub push işlemi istersen bir sonraki adımda ekleyeceğiz
+    - name: DockerHub giriş yap
+      run: echo "${{ secrets.DOCKERHUB_TOKEN }}" | docker login -u ${{ secrets.DOCKERHUB_USERNAME }} --password-stdin
+
+    - name: DockerHub’a push et
+      run: |
+        docker tag flashhello-app ${{ secrets.DOCKERHUB_USERNAME }}/flashhello-app:latest
+        docker push ${{ secrets.DOCKERHUB_USERNAME }}/flashhello-app:latest
