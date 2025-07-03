@@ -2,6 +2,7 @@
 
 ![CI/CD](https://github.com/yusufbender/flashhello/actions/workflows/main.yml/badge.svg)
 ![Repo views](https://komarev.com/ghpvc/?username=yusufbender&repo=flashhello&color=blue)
+![GitHub watchers](https://img.shields.io/github/watchers/yusufbender/flashhello?style=social)
 
 
 Basit bir Flask uygulaması üzerinde CI/CD süreçlerini uygulayarak, modern yazılım dağıtımı adımlarını deneyimledim.  
