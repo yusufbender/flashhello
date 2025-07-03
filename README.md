@@ -100,4 +100,3 @@ Alternatif: Cloud Console → “Deploy from DockerHub image”
 
 - [Proje Repo](https://github.com/yusufbender/flashhello)
 - [DockerHub Image](https://hub.docker.com/r/yusufbender/flashhello-app)
-- [LinkedIn Paylaşımı](#) ← buraya post linki eklersin
