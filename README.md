@@ -1,8 +1,8 @@
-![CI/CD](https://github.com/yusufbender/flashhello/actions/workflows/main.yml/badge.svg)
-
 # 🚀 FlashHello – Flask + Docker + GitHub Actions CI/CD
 
 ![CI/CD](https://github.com/yusufbender/flashhello/actions/workflows/main.yml/badge.svg)
+![Repo views](https://komarev.com/ghpvc/?username=yusufbender&repo=flashhello&color=blue)
+
 
 Basit bir Flask uygulaması üzerinde CI/CD süreçlerini uygulayarak, modern yazılım dağıtımı adımlarını deneyimledim.  
 Her kod değişikliğinde otomatik olarak test çalışıyor, Docker image build ediliyor ve DockerHub'a gönderiliyor.  
